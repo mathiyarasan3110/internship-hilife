@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./script/script.js"></script>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <style>
+        .animation{
+            width: 100px;
+            height: 200px;
+            font-size: 20px;
+            animation-name: demo;
+            animation-duration:4s;
+        }
+        /*@keyframes demo{
+            from{
+                background-color: red;
+
+            }
+            to{
+                background-color: green;
+            }
+        }*/
+        @keyframes demo{
+            0%{
+                background-color: blue;
+                font-size: 50px;
+            }
+            25%{
+                background-color: blueviolet;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+            50%{
+                background-color: chartreuse;
+                font-size: x-large;
+            }
+            75%{
+                background-color: darkgreen;
+                font-family: monospace;
+            }
+            100%{
+                background-color: aliceblue;
+            }
+            
+        
+            
+        }
+        input[type="file"]{
+            border-radius: 10px;
+            border-style:dotted;
+            border-color: brown;
+        }
+        p{
+            text-align: justify;
+            column-count: 4;
+            column-rule-color: brown;
+            
+            column-rule-style: dotted ;
+            column-gap: 50px;
+        }
+        @media screen and (min-width:300px) and (max-width:800px){
+            p{
+                column-count: 2;
+                font-size: 20px;
+                color: blue;
+            }
+            img{
+                width: 100px;
+                height: 50px;
+            }
+            
+        }
+        /*.flex{
+            display:flex;
+            background-color: black;
+            height: 200px;
+            
+            align-items:flex-end;            
+        }*/
+        .fixed{
+            font-size: 50px;
+            border-style: dotted;
+            color: blanchedalmond;
+        }
+        .content{
+            font-size: 30px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            height:250px;
+            width: 60px;
+            transform: rotate(20deg);
+            transition: width 5s;
+        }
+        .content:hover{
+            background-color:crimson;
+            height: 150px;
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="animation">mathi</div><br>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto vero odio quia reprehenderit sit ipsum repellat? Eligendi quidem sapiente pariatur corporis nostrum vitae quod eos nihil excepturi voluptas, ab nesciunt!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium quod cum aspernatur libero! Illum, beatae? Asperiores praesentium harum numquam recusandae, nam deleniti, perspiciatis exercitationem soluta temporibus, dolores nihil accusantium dicta.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus ad, deserunt consectetur commodi ullam laudantium nisi accusamus exercitationem enim doloribus impedit modi temporibus officiis maxime nobis repellat. Totam, quibusdam molestiae.
+
+    </p><br><br>
+    <img src="./mmm.jpg" alt="logo">
+    <form>
+        <input type="file">
+    </form><br><br><br>
+    <div class="flex">
+
+    <h1 class="content">hilife</h1>
+</body>
+</html>
